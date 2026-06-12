@@ -270,8 +270,11 @@ section h2 {
 }
 
 .video-container iframe {
-  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   display: block;
+}
 }
 
 .video-caption {
