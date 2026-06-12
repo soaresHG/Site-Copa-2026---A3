@@ -275,7 +275,6 @@ section h2 {
   aspect-ratio: 16 / 9;
   display: block;
 }
-}
 
 .video-caption {
   font-size: 0.8em;
@@ -462,3 +461,4 @@ footer strong {
   .sobre-conteudo img {
     max-width: 100%;
   }
+}
