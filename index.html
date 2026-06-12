@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copa do Mundo 2026</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-badge">FIFA</div>
+      <h1>Copa do Mundo <span>2026</span></h1>
+      <p class="header-sub">⚽ &nbsp;EUA · Canadá · México&nbsp; ⚽</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#sedes">Sedes</a></li>
+      <li><a href="#video">Vídeo</a></li>
+      <li><a href="#quiz">Quiz</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-layout">
+
+    <main>
+
+      <section id="sobre">
+        <h2>Sobre a Copa 2026</h2>
+        <article class="sobre-conteudo">
+          <div class="sobre-texto">
+            <p>
+              A Copa do Mundo FIFA 2026 será a <strong>maior edição da história</strong>,
+              com <strong>48 seleções participantes</strong>. Será realizada em três países:
+              <strong>Estados Unidos</strong>, <strong>Canadá</strong> e <strong>México</strong>.
+            </p>
+            <p>
+              A grande final está prevista para o <strong>MetLife Stadium</strong>, em Nova Jersey,
+              com capacidade para mais de 82 mil torcedores.
+            </p>
+            <ul class="fatos">
+              <li>🏆 48 seleções — recorde histórico</li>
+              <li>🌎 3 países anfitriões</li>
+              <li>🏟️ 16 cidades sede</li>
+              <li>📅 11 de junho a 19 de julho de 2026</li>
+            </ul>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?q=80&w=600&auto=format&fit=crop"
+            alt="Taça da Copa do Mundo"
+          >
+        </article>
+      </section>
+
+      <section id="sedes">
+        <h2>Cidades Sede</h2>
+        <div class="cards">
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1696542095242-53305aaa6d9c?q=80&w=400&auto=format&fit=crop" alt="Nova York">
+            <div class="card-body">
+              <h3>Nova York / Nova Jersey</h3>
+              <p>🏟️ MetLife Stadium</p>
+              <p class="pais">🇺🇸 Estados Unidos</p>
+              <span class="destaque">FINAL</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?auto=format&fit=crop&w=400&q=80" alt="Cidade do México">
+            <div class="card-body">
+              <h3>Cidade do México</h3>
+              <p>🏟️ Estádio Azteca</p>
+              <p class="pais">🇲🇽 México</p>
+              <span class="destaque destaque-verde">3ª Copa</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1542259009477-d625272157b7?auto=format&fit=crop&w=400&q=80" alt="Los Angeles">
+            <div class="card-body">
+              <h3>Los Angeles</h3>
+              <p>🏟️ SoFi Stadium</p>
+              <p class="pais">🇺🇸 Estados Unidos</p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <section id="video">
+        <h2>Vídeo Oficial</h2>
+        <article class="video-container">
+          <iframe
+    width="100%"
+    height="340"
+    src="https://www.youtube.com/embed/ZTdOX1U2K0Q"
+    title="Copa do Mundo 2026 - Vídeo Oficial FIFA"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+          </iframe>
+          <p class="video-caption">📺 Vídeo: FIFA World Cup 2026 — YouTube (CC0 / licença pública)</p>
+        </article>
+      </section>
+
+      <section id="quiz">
+        <h2>Quiz da Copa</h2>
+        <p class="quiz-intro">Teste seus conhecimentos sobre a Copa 2026!</p>
+
+        <article class="pergunta" id="q1">
+          <p><strong>1.</strong> Quantas seleções participam da Copa 2026?</p>
+          <div class="opcoes">
+            <button onclick="responder(this, false)">32 seleções</button>
+            <button onclick="responder(this, true)">48 seleções</button>
+            <button onclick="responder(this, false)">64 seleções</button>
+          </div>
+        </article>
+
+        <article class="pergunta" id="q2">
+          <p><strong>2.</strong> Quais países sediam a Copa 2026?</p>
+          <div class="opcoes">
+            <button onclick="responder(this, false)">Brasil, Argentina e Chile</button>
+            <button onclick="responder(this, true)">EUA, Canadá e México</button>
+            <button onclick="responder(this, false)">Inglaterra, França e Espanha</button>
+          </div>
+        </article>
+
+        <article class="pergunta" id="q3">
+          <p><strong>3.</strong> Onde será a grande final da Copa 2026?</p>
+          <div class="opcoes">
+            <button onclick="responder(this, false)">Rose Bowl – Pasadena</button>
+            <button onclick="responder(this, false)">Estádio Azteca – Cidade do México</button>
+            <button onclick="responder(this, true)">MetLife Stadium – Nova Jersey</button>
+          </div>
+        </article>
+
+      </section>
+
+    </main>
+
+    <aside>
+      <h3>⭐ Curiosidades</h3>
+      <ul>
+        <li>Será a primeira Copa com 48 seleções.</li>
+        <li>O Estádio Azteca sediará sua 3ª Copa do Mundo — único na história.</li>
+        <li>O Brasil é o maior campeão com 5 títulos.</li>
+        <li>Serão disputados 104 jogos no total.</li>
+        <li>A Copa retorna ao México após 40 anos.</li>
+      </ul>
+
+      <div class="aside-stat">
+        <span class="stat-num">48</span>
+        <span class="stat-label">Seleções</span>
+      </div>
+      <div class="aside-stat">
+        <span class="stat-num">16</span>
+        <span class="stat-label">Cidades</span>
+      </div>
+      <div class="aside-stat">
+        <span class="stat-num">104</span>
+        <span class="stat-label">Jogos</span>
+      </div>
+    </aside>
+
+  </div>
+
+  <footer>
+    <p>Desenvolvido por <strong>Estudantes de ADS</strong> · 2026</p>
+    <p>Imagens: Unsplash (CC0)</p>
+  </footer>
+
+  <script>
+    function responder(btn, correto) {
+      const opcoes = btn.closest('.opcoes').querySelectorAll('button');
+      opcoes.forEach(b => b.disabled = true);
+      btn.classList.add(correto ? 'certa' : 'errada');
+      if (!correto) {
+        opcoes.forEach(b => {
+          if (b.getAttribute('onclick').includes('true')) b.classList.add('certa');
+        });
+      }
+    }
+  </script>
+
+</body>
+</html>
