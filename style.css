@@ -1,4 +1,3 @@
-/* ===== RESET & BASE ===== */
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +30,6 @@ img {
   display: block;
 }
 
-/* ===== HEADER ===== */
 header {
   background: linear-gradient(135deg, var(--azul-escuro) 0%, var(--azul) 50%, var(--verde) 100%);
   color: var(--branco);
@@ -91,7 +89,6 @@ header p.header-sub {
   text-transform: uppercase;
 }
 
-/* ===== NAV ===== */
 nav {
   background-color: var(--verde);
   position: sticky;
@@ -123,7 +120,6 @@ nav ul li a:hover {
   color: var(--ouro);
 }
 
-/* ===== PAGE LAYOUT (main + aside lado a lado) ===== */
 .page-layout {
   display: flex;
   gap: 1.5em;
@@ -133,7 +129,6 @@ nav ul li a:hover {
   align-items: flex-start;
 }
 
-/* ===== MAIN ===== */
 main {
   flex: 1;
   min-width: 0;
@@ -157,7 +152,6 @@ section h2 {
   letter-spacing: 1px;
 }
 
-/* ===== SECTION SOBRE ===== */
 .sobre-conteudo {
   display: flex;
   gap: 1.5em;
@@ -200,7 +194,6 @@ section h2 {
   flex-shrink: 0;
 }
 
-/* ===== CARDS ===== */
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -271,7 +264,6 @@ section h2 {
   color: var(--branco);
 }
 
-/* ===== VIDEO ===== */
 .video-container {
   border-radius: 8px;
   overflow: hidden;
@@ -289,7 +281,6 @@ section h2 {
   font-style: italic;
 }
 
-/* ===== QUIZ ===== */
 #quiz {
   background: linear-gradient(135deg, var(--azul-escuro), var(--azul));
   color: var(--branco);
@@ -360,7 +351,6 @@ section h2 {
   cursor: default;
 }
 
-/* ===== ASIDE ===== */
 aside {
   width: 240px;
   flex-shrink: 0;
@@ -425,7 +415,6 @@ aside ul li:last-child {
   opacity: 0.9;
 }
 
-/* ===== FOOTER ===== */
 footer {
   background: linear-gradient(90deg, var(--azul-escuro), var(--verde-escuro));
   color: rgba(255,255,255,0.6);
@@ -440,7 +429,6 @@ footer strong {
   color: var(--ouro);
 }
 
-/* ===== RESPONSIVO ===== */
 @media (max-width: 700px) {
   header h1 {
     font-size: 2em;
